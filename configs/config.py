@@ -309,7 +309,7 @@ albu_train_transforms = [
 train_pipeline = [
     dict(type='LoadImageFromFile'),
     dict(
-        type='LoadAnnotations', with_bbox=True, with_mask=True, with_seg=True),
+        type='LoadAnnotations', with_bbox=True, with_mask=True),
     dict(
         type='RandomFlip',
         flip_ratio=0.75,
@@ -459,8 +459,7 @@ data = dict(
             dict(
                 type='LoadAnnotations',
                 with_bbox=True,
-                with_mask=True,
-                with_seg=True),
+                with_mask=True),
             dict(
                 type='RandomFlip',
                 flip_ratio=0.75,
