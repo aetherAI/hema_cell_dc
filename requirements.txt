@@ -1,0 +1,12 @@
+more_itertools>=8.14.0
+polars>=0.13.62
+pandas>=1.4.3
+seaborn==0.11.2
+scikit-image>=0.19.3
+scikit-learn>=1.1.2
+Pillow>=9.2.0
+mmdet==2.5.0
+mmcv==1.4.0
+pypng
+pqdm>=0.2.0
+joblib>=1.1.0
